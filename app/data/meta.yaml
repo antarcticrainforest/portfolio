@@ -1,7 +1,7 @@
 title: Portfolio
 subtitle: Martin Bergemann
 intro: |
-  This is a code portfolio covering previous work at Monash University and ongoing projects at University of Melbourne. Take a look at my [GitHub Profile](https://github.com/antarcticrainforest) for further information and the source code. An online version of my CV can be accessed on my [GitHub user page](https://antarcticrainforest.github.io)
+  This is a code portfolio covering previous work at Monash University and ongoing projects at University of Melbourne. Take a look at my [GitHub Profile](https://github.com/antarcticrainforest) for the source code. Further information along with an online version of my CV can be accessed on my [GitHub user page](https://antarcticrainforest.github.io)
 
 footer: |
     Template by [Roman Nurik](http://roman.nurik.net) using HTML/Swig, JavaScript/jQuery, Sass, Gulp, and more. [See the source](https://github.com/romannurik/portfolio)
