@@ -1,106 +1,169 @@
-# List of my portfolio projects.
+﻿# List of my portfolio projects.
 
-- name: Project 1
-  date: September 2013 – February 2014
+- name: Pattern Recognition in Satellite Data
+  date: May 2013 – January 2014
   extra_classes: tall
   description: |
-    Lorem ipsum Aliquip qui enim dolore deserunt est eu nostrud in commodo do qui dolore dolor non do nostrud labore cupidatat aliquip proident ut mollit eiusmod ex culpa sint dolor velit incididunt laborum dolore qui [Duis aliqua cupidatat](http://www.google.com) eiusmod occaecat quis labore dolor labore nostrud ad ut quis magna reprehenderit officia laborum in ullamco anim dolore Duis eu minim dolor ex Ut et est deserunt veniam in sed labore ad labore culpa labore laboris dolor dolore in id sunt ut eu nulla dolore in.
+    To investigate the characteristics of tropical rainfall near coasts developed the first of its kind OpenCV based pattern recognition technique. The algorithm performs Canny-Edge detection in satellite data to separate raining contours. It then consideres different image segment moments to identify rainfall patterns that are associated with coastal land-see interaction.
 
-    Incididunt anim enim non Ut culpa culpa incididunt est tempor magna cillum officia mollit magna enim nisi culpa eu eu elit ex in consectetur ad dolore amet elit proident adipisicing magna aute officia elit nisi commodo reprehenderit labore proident enim dolor laborum est labore aliqua non dolore occaecat cupidatat aute Excepteur sed veniam laboris veniam id.
+    The algorithm and the results of the its application to *CMORPH* [satellite data](http://www.cpc.ncep.noaa.gov/products/janowiak/cmorph_description.html) have been published in an article in Journal of Climate.
 
   actions:
-  - caption: Action 1
-    url: http://www.google.com
-  - caption: Action 2
-    url: http://www.google.com
+  - caption: Read article
+    url: http://journals.ametsoc.org/doi/10.1175/JCLI-D-15-0098.1
+  - caption: GitHub Repository
+    url: https://github.com/antarcticrainforest/PatternRecog
 
   pages:
-  - video: project1
+  - video: total_MC_rain
     color: '#c2d6f2'
     color2: '#3c6caf'
-    device_frame: nexus5_light
+    caption: The average diurnal rainfall cycle (1998 - 2016) shows characteristic spatio-temporal variations in coastal areas (here Indonesia) that are related to land-sea interaction.
 
-  - image: project1_detail1.png
+  - image: total.png
     color: '#c2d6f2'
     color2: '#3c6caf'
-    extra_classes: no-scale
-    offset_media: 0, 22%
-    device_frame: nexus5_light
-    caption: Lorem ipsum Dolor non esse nostrud dolor in amet dolor anim sunt officia nulla voluptate ea tempor nostrud Excepteur. [Extra link](http://www.google.com)
+    caption: To filter these characteristic patterns an objective recognition algorithm is developed and applied to three hourly satellite scans (snapshot 2nd Feb. 2016).
 
-  - video: project1_archive
+  - image: detect.gif
     color: 'material orange 100'
     color2: 'material orange 600'
-    device_frame: browser
-    caption: Lorem ipsum Laborum esse exercitation et Duis irure sed Duis Duis aliqua non id in.
+    caption: With help of the open-source lib. OpenCV the algorithm considers contour moments and contour positions to filter characteristic rainfall patterns that are related to coastal land-sea interactions (filter result).
 
 
 ###################################################################################################
 
 
-- name: Project 2
-  date: 2010 – 2014
+- name: Tracking of Servere Weather Events
+  date: March 2017 – present
   extra_classes: tall
   description: |
-    Lorem ipsum *Id eu aliquip cillum* ut anim in tempor non magna anim occaecat.
+    My work in the Centre of [Excellence of Climate Extremes](http://climateextremes.org.au/research-programs/extreme-rainfall/) focuses on the investigation of extreme rainfall events. To study the life cycles of high impact weather I am part of a team of researchers who are developing an algorithm that is able to track rainfall data of various kinds.
 
-    * Lorem ipsum Duis Duis proident laborum aliquip est sint deserunt qui tempor in anim sunt fugiat nisi sint proident elit esse.
-    * Lorem ipsum Nulla ea deserunt officia cillum dolore voluptate laborum mollit qui Ut quis.
-
-    Lorem ipsum Dolore laborum laborum eiusmod ex dolor nostrud magna ex voluptate quis et nisi consectetur mollit cillum pariatur aliquip ea labore consequat nostrud sed proident cupidatat dolor velit fugiat nostrud et Ut esse deserunt anim.
+    The algorithm considers phase correlations to predict cell movement and is able to handle splitting and merging of different storm systems. The framework can be applied to ground-based high resolution radar scans, satellite rainfall retrievals and high resolution model output data.
 
   actions:
-  - caption: Action 1
-    url: http://www.google.com
-  - caption: Action 2
-    url: http://www.google.com
+  - caption: GitHub Repository
+    url: https://github.com/antarcticrainforest/tintV2
 
   pages:
-  - video: project2_2014
+  - video: cpol_tracks
     color: 'material indigo 100'
     color2: 'material indigo 500'
-    device_frame: nexus5_light
-
-  - video: project2_2014_article
+    caption: Application of the storm-system tracking for data captured by a research ground-based radar in Darwin, Australia
+  - image: cpol_traces.png
     color: 'material teal 100'
     color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+    caption: Traces of the tracked storm-systems. The tracks are used to study the life-cycle of organised convective extreme events.
 
-  - image: project2_2014_vignette.png
+  - image: cmorph_traces.png
     color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
-
+    caption: Intentionally only developed for radar application I adopted the algorithm for application to any kind of binary data. Like shown here for satellite based rainfall retrievals.
 
 ###################################################################################################
 
 
-- name: Project 3
-  date: September 2012 – February 2013
+- name: Machine Learning for Rainfall Extremes
+  date: March 2018 – present
   extra_classes: tall
   description: |
-    Lorem ipsum Eu voluptate veniam do magna dolore reprehenderit esse ad in amet Excepteur aute in consequat nulla in dolore reprehenderit commodo irure nostrud nulla nostrud nisi sed exercitation sed mollit.
+    To gain a deeper understanding and also to improve the predictive skill of rainfall extremes in the Tropics is project aims at applying state of the art Machine Learning algorithms like support vector classifier or convolutional neuronal networks to investigate and predict the occurrence of extreme rainfall events based on large-scale precursor.
 
-    Duis dolore sit incididunt ut aliquip aliqua occaecat cillum sunt exercitation incididunt ut Excepteur magna velit fugiat laboris sed dolore incididunt occaecat laborum amet tempor fugiat voluptate officia mollit consequat in Excepteur ut in laboris proident est enim ut aliquip culpa do ex enim non sed ut exercitation anim est nostrud consequat ad voluptate officia aliquip minim anim velit.
-
-    Consectetur pariatur ex consequat elit esse magna commodo ea cillum Excepteur labore adipisicing.
+    The different algorithmic approaches (supervised and unsupervised) will be the corner-stone for a new generation of modelling approaches of tropical convection in global numerical weather prediction and climate models.
 
   actions:
-  - caption: Action 1
-    url: http://www.google.com
-  - caption: Action 2
-    url: http://www.google.com
+  - caption: Repository on GitHub
+    url: https://github.com/antarcticrainforest/RainfallExtremes
+  - caption: Example Notebook
+    url: https://nbviewer.jupyter.org/github/antarcticrainforest/RainfallExtremes/blob/master/python/ML_Algos.ipynb
 
   pages:
-  - video: project3
+  - image: SVC_Darwin.png
     color: 'material teal 100'
     color2: 'material teal 500'
-    device_frame: nexus5_light
+    caption: Due to highly non-linear processes extreme rainfall events are notoriously hard to predict from large-scale precursors that are represented in forcasting models
+  - image: Rand_Darwin-2.png
+    color: 'material indigo 100'
+    caption: In this ongoing project the ability of various Machine Learning approaches to predict extreme events in the tropics is tested (here test with random forest classifier)
+  - image: Dendrogram.png
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    caption: Results from unsupervised machine learning methods (like here a dendrogram for a cluster analysis) can give insights for to better understand extreme rainfall events
+
+- name: A Stochastic Multicloud Model
+  date: October 2015 - August 2016
+  extra_classes: tall
+  description: |
+    In the project I developed a *coastal* version of a Stochastic Multi Cloud Multi Could model. This stochastic spin-flip model calculates transition probabilities with help of a conditional Markov Chain. The results of this project have been published in Journal of Advances in Modelling Earth Systems.
+
+    The new modelling approach can help to improve the representation of tropical convection, a major source of climate projection uncertainties, in global numerical weather prediction and climate models.
+
+  actions:
+  - caption: Read Article
+    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017MS001048
+  - caption: GitHub Repository
+    url: https://github.com/antarcticrainforest/SMCM-C
+
+  pages:
+  - image: SMCM.png
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    caption: The Stochastic Model (SMCM) calculates transition probabilities between three different cloud types and clear-sky with help of a conditional Markov-Chain
+  - image: SMCM.gif
+    color: 'material indigo 200'
+    color2: 'material indigo 800'
+    caption: The *coastal* version that I developed is able to represent the spatio-temporal variability of clouds along tropical clouds (here shown by an idealized test-run; white are cloudy areas black clear sky)
+  - image: SMCM-run.png
+    color: 'material teal 200'
+    color2: 'material teal 800'
+    caption: When applied to real-world conditions over tropical coastal locations the new model show an improvement of the prediction of clouds and convection compared to traditional modelling approaches.
+
+- name: A Sea-Breeze Algorithm for Global Models
+  date: March 2017 - February 2018
+  extra_classes: tall
+  description: |
+    During my final year at Monash University I designed and implemented a decision algorithm that determines the presence of local sea-breeze circulation into the latests version of the UK Met-Office's global numerical weather forecasting model.
+
+    While the ideas encapsulated in this algorithm are straightforward to implement the challenging part was the implementation of the parallel computing paradigm numerical models make use of in the typical in super computing environments. This first of its kind sea-breeze model is currently applied by the UK-Met Office and NASA's Global Modelling and Assimilation Office.
+
+  actions:
+  - caption: GitHub Page
+    url: https://antarcticrainforest.github.io/seabreeze_param
+  - caption: GitHub Repository
+    url: https://github.com/antarcticrainforest/seabreeze_param
+
+  pages:
+  - video: Sea_breezes
+    color: 'material teal 100'
+    color2: 'material teal 600'
+    caption: Storm systems along the Kenyan coastline caused by sea-breeze circulations. As global (coars resolution) models do not capture theses circulations, they are error prone in coastal areas.
+  - image: seabreeze-1.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    caption: The developed algorithm filters the models coastal area from the static land-sea mask and the dynamic sea-ice cover (a) and also applies different filters to various atmospheric fields (b). 
+  - image: test_run_ERAI-DJF.png
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    caption: The calculated field of not resolved sea-breeze circulations is soley based on resolved conditions and informs other parts of the climate model to help improving the prediction of rainfall in coastal areas.
+
+- name: Optimizing Weather Forecast Output with Observations
+  date: October 2014 - present
+  extra_classes: tall
+  description: |
+    The aim of the project is to improve the output of numerical weather prediction (NWP) by applying an optimisation algorithm (3D variational analysis). The variational analysis nudges NWP model output to atmospheric observations from satellites, radio sondes and radars while constraining budgets conservation of various atmospheric variables.
+
+    The output of this optimisatoin process can be used to initialise high resolution cloud resolving models and large-eddy simulations.
+
+  actions:
+  - caption: GitHub Page
+    url: https://antarcticrainforest.github.io/va_analysis
+  - caption: GitHub Repository
+    url: https://github.com/antarcticrainforest/va_analysis
+  - caption: Radar-Error Repository
+    url: https://github.com/antarcticrainforest/ra_error
+
+  pages:
+  - image: VA.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    caption: The algorithm tries to improve foretasted variables (like temperature) nudgeing them towards observations under the constraints that some important atmospheric budgets are conserved.
