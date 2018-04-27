@@ -40,7 +40,7 @@
   description: |
     My work in the Centre of [Excellence of Climate Extremes](http://climateextremes.org.au/research-programs/extreme-rainfall/) focuses on the investigation of extreme rainfall events. To study the life cycles of high impact weather I am part of a team of researchers who are developing an algorithm that is able to track rainfall data of various kinds.
 
-    The algorithm considers phase correlations to predict cell movement and is able to handle splitting and merging of different storm systems. The framework can be applied to ground-based high resolution radar scans, satellite rainfall retrievals and high resolution model output data.
+    The algorithm considers phase correlations to predict cell movement and is able to handle splitting and merging of different storm systems. In the team it is my responsibility to add various statistics and make the algorithm work with various datasets like satellite rainfall retrievals and high resolution model output and radar data.
 
   actions:
   - caption: GitHub Repository
